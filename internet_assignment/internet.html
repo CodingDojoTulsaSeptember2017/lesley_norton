@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Internet</title>
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <img class="globe" src="images/globe.png" alt="welcome to my assignment">
+            <h1>The Inter<span class="bluetext">net</span></h1>
+            <h2>The World Wide Web</h2>
+            <div id="lowerwrap">
+                <div id="sidebar">
+                    <h4>So, what's an <span class="redtext">Internet?</span></h4>
+                    <p> An <span class="bluetext">Inter</span>connected <span class="bluetext">Net</span>work of computers
+                        all around the world!</p>
+                    <button>WATCH A VIDEO</button>
+                    <button>MORE RESOURCES</button>
+                    <hr />
+                    <div id="ninjabox">
+                        <span class="advertblurb">Reinvent your career in just 14 weeks</span>
+                        <img src="images/ninja.png" alt="this is the coding dojo asskicker">
+                        <button>Learn More &#8921;</button>
+                    </div><!---closes ninjabox-->
+                </div><!--closes sidebar-->
+                <div id="maincontent">
+                    <img class="icon" src="images/home.png" alt="this is where the coding dojo asskicker lives">
+                    <span class="bluetext bluemargin">DNS</span>
+                    <div id="maintopright">
+                        <img src="images/phone.png" alt="dojo ninja phone home?">
+                        <p>Mon - Fri 9 a.m. - 5 p.m. (EST)
+                        <span class="numbers">855-967-3787</span>
+                        International +1.617.963.0555</p>
+                        
+                    </div><!--closes maintopright-->
+                    <div id="clientsandservers">
+                        <h3>Clients and Servers</h3>
+                        <p>Computers connected to the Web are called <span class="bolder">clients</span> and <span class="bolder">servers.</span></p>
+                        <ul>
+                            <li><span class="lightbluetext">Clients</span> are the typical Web user's Internet-connected devices (for example, your computers
+                                connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="lightbluetext">Web-accessing software</span> available 
+                                on those devices (usually a web browser like Firefox or Chrome).</li>
+                            <li><span class="lightbluetext">Servers</span> are computers that store <span class="lightbluetext">webpages</span>,<span class="lightbluetext">sites</span>, or<span class="lightbluetext"> apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the
+                                client machine to be displayed in the user's web broswer.</li>
+                        </ul>
+                        <img src="images/client_server.jpg" class="server" alt="diagram of client server relationship">
+                        <h3>So What Actually Happens?</h3>
+                        <ol>
+                            <li>The browser goes to the <span class="lightbluetext">DNS server</span> and find the real address of the <span class="lightbluetext">server</span>
+                                that the website lives on.</li>
+                            <li>The browser sends an <span class="lightbluetext">HTTP request</span> message to the server asking it to send a copy of the website to the client.</li>
+                            <li>If the server approves the client's request, the server sends the client a <span class="lightbluetext">200 OK message</span>, which means "Permission granted! Here you go!", around
+                                then starts sending the website's files to the browser as a series of small chunks.</li>
+                            <li>The browser assembles the small chunks into a complete website and displays it out to you!</li>
+                        </ol>
+                        <div id="blueborderbox">
+                            <img src="images/html.png" alt="html representation">
+                            <div id="moveright">
+                                <h3>The Big 3 - HTML, CSS, JavaScript</h3>
+                                <p>While the server can process information in many different languages, the files that they serve to the client are 
+                                    <span class="italic">always</span> going to be some combination of HTML, CSS, and JavaScript! <br><br>
+                                    Learn more about the big 3 <span class="lightbluetext">here</span>!</p>
+                            </div><!--end of moveright-->
+                        </div> <!--closes blue bordered box-->
+                    </div><!--closes clients and servers-->
+                </div><!--closes maincontent-->
+            </div><!--closes lowerwrap-->
+        </div><!--close wrapper-->
+    </body>
+</html>
