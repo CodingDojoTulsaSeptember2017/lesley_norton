@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>BATTLE ROYALE!</title>
+        <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="battlecss.css">
+        <script src="battlequery.js"></script>
+    </head>
+    <body>
+        
+        <div id="wrapper" class="backgroundChosen">
+            <div id="backgroundwindow">
+            <div id="opaque">
+            
+            <div id="selectionbox">
+            
+                <h1>Select Arena</h1>
+                <button id="beach" value="url('arenaphotos/beach.jpg')">Beach</button>
+                <button id="planet" value="url('arenaphotos/earth.jpg')">Planet</button>
+                <button id="dojo" value="url('arenaphotos/dojo.jpg')">Dojo</button>
+                <button id="forest" value="url('arenaphotos/forest.jpg')">Forest</button>
+                <button id="matrix" value="url('arenaphotos/matrix.jpg')">Matrix</button>
+                <button id="snow" value="url('arenaphotos/snow.jpg')">Snow</button>
+            </div>
+            <div id="selectionbox2">
+                <h1>Select Players</h1>
+                <select id="select1" >
+                    <option selected ="selected">Default</option>
+                    <option value="arenaphotos/mikey.png">Mikey</option>
+                    <option value="arenaphotos/donny.png">Donny</option>
+                    <option value="arenaphotos/raphael.png">Raphael</option>
+                    <option value="arenaphotos/leo.png">Leo</option>
+                </select>
+                <select id="select2" >
+                        <option selected ="selected">Default</option>
+                        <option value="arenaphotos/mikey.png">Mikey</option>
+                        <option value="arenaphotos/donny.png">Donny</option>
+                        <option value="arenaphotos/raphael.png">Raphael</option>
+                        <option value="arenaphotos/leo.png">Leo</option>
+                    </select>
+                
+            </div>
+            <img src="arenaphotos/donny.png" id="player1" value="mikey1">
+            <img src="arenaphotos/donny.png" id="player2" value="mikey2">
+        <!-- <select name="backgroundpick" id="backgroundpick">
+            <option selected = "selected">Default</option>
+            <option value="class1">Image 1</option>
+            <option value="class2">Image 2</option>
+            <option value="class3">Image 3</option>
+        </select> -->
+        </div>
+        </div>
+        </div>
+      
+    </body>
+</html>
